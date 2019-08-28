@@ -1,0 +1,55 @@
+﻿<Window x:Class="Kiosk.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="768" Width="1024" Loaded="Window_Loaded"
+        WindowStyle="None">
+    <Grid>
+        <StackPanel  VerticalAlignment="Top" Height="768" Orientation="Vertical" Width="1000">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <StackPanel Margin="0,0,60,0" HorizontalAlignment="Center" Width="504" VerticalAlignment="Top" Height="44">
+                        <TextBlock HorizontalAlignment="Center" TextBlock.FontSize="28" FontWeight="Bold" FontStretch="Normal" FontFamily="Segoe UI">ИНФОРМАЦИОННЫЙ КИОСК</TextBlock>
+                        </StackPanel>
+                    <StackPanel Margin="0,5,20,0">
+                    <Button  Name="admin" HorizontalAlignment="Right" Height="40" Width="130" Visibility="Visible" Opacity="1" BorderBrush="White" Background="White" Click="admin_Click">
+                    </Button>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel Width="1000" Name="but_con" HorizontalAlignment="Left" Orientation="Horizontal">
+                <StackPanel Name="but" Orientation="Vertical" Width="250" Height="700" HorizontalAlignment="Left" VerticalAlignment="Top">
+                    <Button Height="50" Margin="0,0,0,10" Background="#2d6ac6" Name="Button_1" Content="Гражданам" Foreground="White" Click="Button_1_Click" FontSize="14"></Button>
+                    <Button Height="50" Margin="0,0,0,10" Background="#2d6ac6" Name="Button_2"  Foreground="White" FontSize="14" Click="Button_2_Click_1">
+                            <TextBlock Name="but_tbx" TextWrapping="Wrap">
+                                Работодателям и самозанятому населению
+                            </TextBlock>
+                    </Button>
+                    <Button Height="50" Margin="0,0,0,10" Background="#2d6ac6" Name="Button_3"  Foreground="White" FontSize="14" Click="Button_3_Click">
+                        <TextBlock Name="txb_but3" TextWrapping="Wrap">
+                            Информационно-разъяснительные материалы ПФР
+                        </TextBlock>
+                    </Button>
+                    <Button Height="50" Margin="0,0,0,10" Background="#2d6ac6" Name="Button_4" Content="" Foreground="White" Visibility="Hidden" FontSize="14" Click="Button_4_Click"></Button>
+                    <Button Height="50" Margin="0,0,0,10" Background="#2d6ac6" Name="Button_5"  Foreground="White" Visibility="Hidden" FontSize="14" Click="Button_5_Click">
+                        <TextBlock Name="kostyl" TextWrapping="Wrap">
+                            
+                        </TextBlock>
+                    </Button>
+                    <Button Height="50" Margin="0,0,0,10" Background="#2d6ac6" Name="Button_6" Content="" Foreground="White" Visibility="Hidden" FontSize="14" Click="Button_6_Click"></Button>
+                    <Button Height="50" Margin="0,0,0,10" Background="#2d6ac6" Name="Button_7" Content="" Foreground="White" Visibility="Hidden" FontSize="14" Click="Button_7_Click"></Button>
+                    <Button Height="50" Margin="0,0,0,10" Background="#2d6ac6" Name="Button_8" Content="" Foreground="White" Visibility="Hidden" FontSize="14" Click="Button_8_Click"></Button>
+                    <Button Height="50" Margin="0,0,0,10" Background="#2d6ac6" Name="Button_9" Content="Помощь" Foreground="White" FontSize="14" Click="Button_9_Click"></Button>
+
+                   
+                </StackPanel>
+                <StackPanel Orientation="Vertical">
+                    <StackPanel Name="content1" HorizontalAlignment="Right" Width="750" Height="600" VerticalAlignment="Top" >
+                    </StackPanel>
+                   <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <Button Name="back" Content="Назад" Margin="0,20,0,0" Width="100" Height="50" FontSize="14" Click="Button_Click_1"></Button>
+                        <Button Content="Главное меню" Margin="20,20,0,0" Width="100" Height="50" Click="Button_Click"></Button>
+                        </StackPanel>
+                </StackPanel>
+            </StackPanel>
+            
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,11 @@
+D:\pensiya\Kiosk\Kiosk\bin\Release\Kiosk.exe
+D:\pensiya\Kiosk\Kiosk\bin\Release\Kiosk.pdb
+D:\pensiya\Kiosk\Kiosk\obj\x86\Release\MainWindow.baml
+D:\pensiya\Kiosk\Kiosk\obj\x86\Release\MainWindow.g.cs
+D:\pensiya\Kiosk\Kiosk\obj\x86\Release\App.g.cs
+D:\pensiya\Kiosk\Kiosk\obj\x86\Release\Kiosk_MarkupCompile.cache
+D:\pensiya\Kiosk\Kiosk\obj\x86\Release\Kiosk.g.resources
+D:\pensiya\Kiosk\Kiosk\obj\x86\Release\Kiosk.Properties.Resources.resources
+D:\pensiya\Kiosk\Kiosk\obj\x86\Release\Kiosk.csproj.GenerateResource.Cache
+D:\pensiya\Kiosk\Kiosk\obj\x86\Release\Kiosk.exe
+D:\pensiya\Kiosk\Kiosk\obj\x86\Release\Kiosk.pdb
